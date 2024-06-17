@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build-tokens": "style-dictionary build --config style-dictionary.config.json"
+    "build-tokens": "node style-dictionary.config"
   },
   "dependencies": {
     "next": "14.2.4",

@@ -1,0 +1,18 @@
+@import "./figma-tokens.scss";
+
+.storybook-card {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 260px;
+  min-height: 300px;
+  max-height: auto;
+  border-radius: $thememode-1-radius-card-1em;
+  padding: $thememode-1-padding-1em;
+  background-color: white;
+  box-shadow: $thememode-1-shadow-card-color $thememode-1-shadow-card-x $thememode-1-shadow-card-y $thememode-1-shadow-card-blur $thememode-1-shadow-card-spread;
+  .img {
+    width: 100%;
+  }
+  h3 {
+    color: $thememode-1-button-color-primary;
+  }
+}
